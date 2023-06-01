@@ -1,0 +1,5 @@
+root = "."
+build_cmd = "go build -o myapp"
+run_cmd = "./myapp"
+include_ext = [".go"]
+exclude_dir = ["vendor"]
